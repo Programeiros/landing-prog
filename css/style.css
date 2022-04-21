@@ -22,3 +22,37 @@ img {
    --body-color: #010f1d;
    --white-color: #ffff; 
 }
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.imagens img{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.navbaralgumacoisa{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    align-items: left;
+}
+.imagens{
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
