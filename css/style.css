@@ -42,13 +42,12 @@ img {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    position: relative;
     max-width: 1024px;
 }
-.navbaralgumacoisa{
+.navbar{
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
     top: 0;
@@ -57,7 +56,7 @@ img {
     height: 60px;
 }
 
-.navbaralgumacoisa a {
+.navbar a {
     cursor: pointer;
 }
 
@@ -107,7 +106,7 @@ img {
     padding-bottom: 60px;
 
 }
-.projectsConteiner{    
+.projectsContainer{    
     display:flex;
     align-items: center;
     justify-content: center;
@@ -117,8 +116,7 @@ img {
     max-width: 1024px;
     
 }
-.controleprojects{
-    position: absolute;
+.controlprojects{
     width: 100px;
     height: 100px;
     right: 0;   
@@ -153,4 +151,8 @@ img {
 .card img {
     width: 162px;
     height: 162px;
+}
+
+.projectsContainerTitle{
+    padding-right: 10vh;
 }
