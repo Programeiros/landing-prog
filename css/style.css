@@ -5,6 +5,10 @@ body {
     font-family: 'Space Grotesk', sans-serif;
 };
 
+main {
+    background-color: red;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -39,6 +43,7 @@ img {
     margin-right: auto;
     margin-left: auto;
     position: relative;
+    max-width: 1024px;
 }
 .navbaralgumacoisa{
     display: flex;
@@ -49,10 +54,103 @@ img {
     top: 0;
     left: 0;
     align-items: left;
+    height: 60px;
 }
+
+.navbaralgumacoisa a {
+    cursor: pointer;
+}
+
 .imagens{
     height: 60px;
     align-items: center;
     justify-content: space-evenly;
     display: flex;
+}
+
+/* ABOUT */
+.about {
+    height: calc(100vh - 60px);
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+}
+
+.about__content {
+    flex: 1;
+}
+
+.about__title {
+    text-align: center;
+    color: var(--first-color);
+}
+
+.about__desc {
+    border: solid 4px var(--first-color);
+    border-radius: 36px;
+    padding: 1.5rem;
+}
+
+.about__img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about__img img {
+    max-width: 424px;
+}
+
+/* PROJECTS */
+.projects {
+    color: var(--white-color);
+    padding-bottom: 60px;
+
+}
+.projectsConteiner{    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 60px;
+    position: relative;
+    margin: 0 auto 60px;
+    max-width: 1024px;
+    
+}
+.controleprojects{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0;   
+}
+
+.cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 265px);
+    grid-template-rows: repeat(auto-fit, minmax(440px, 1fr));
+    grid-gap: 4rem;
+}
+
+.card {
+    height: 440px;
+    background: var(--first-color);
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 2.1875rem;
+} 
+
+
+.card h2 {
+    text-align: center;
+    font-size: 2.25rem;
+    color: var(--second-color);
+}
+
+.card img {
+    width: 162px;
+    height: 162px;
 }
