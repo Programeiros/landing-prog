@@ -3,10 +3,10 @@
 body {
     background-color: var(--body-color);
     font-family: 'Space Grotesk', sans-serif;
-};
+}
 
 main {
-    background-color: red;
+    background-color: var(--body-color);
 }
 
 * {
@@ -24,7 +24,7 @@ img {
    --first-color: #0364c5;
    --second-color: #c4c4c4;
    --body-color: #010f1d;
-   --white-color: #ffff; 
+   --white-color: #ffffff; 
 }
 .logo{
     width: 60px;
@@ -155,4 +155,38 @@ img {
 
 .projectsContainerTitle{
     padding-right: 10vh;
+}
+
+.Botao{
+
+    padding: 46px 45px;
+    max-width: 100%;
+    max-height: 100%;
+    color: #FFFFFF;
+    background: #0969DA;
+    border-radius: 10px; 
+    text-align:center;
+    user-select: none;
+    cursor: pointer;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    display:block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-decoration: none ;
+    transition: 0.2s;
+}
+.Botao:hover{
+    background: #234975;  
+}
+
+.copyright{
+    padding:45px ;
+    font-weight: 400;
+    font-size: 20px;
+    color:  #FFFFFF;
+    text-align:center;
+    
 }
