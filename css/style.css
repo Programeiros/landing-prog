@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap');
 
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--body-color);
     font-family: 'Space Grotesk', sans-serif;
@@ -7,12 +13,6 @@ body {
 
 main {
     background-color: var(--body-color);
-}
-
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
 }
 
 img {
@@ -26,10 +26,12 @@ img {
    --body-color: #010f1d;
    --white-color: #ffffff; 
 }
+
 .logo{
     width: 60px;
     height: 60px;
 }
+
 .imagens img{
     margin-left: 10px;
     width: 40px;
@@ -44,6 +46,7 @@ img {
     margin-left: auto;
     max-width: 1024px;
 }
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -104,22 +107,20 @@ img {
 .projects {
     color: var(--white-color);
     padding-bottom: 60px;
-
 }
+
 .projectsContainer{    
     display:flex;
     align-items: center;
     justify-content: center;
     padding-right: 60px;
-    position: relative;
     margin: 0 auto 60px;
     max-width: 1024px;
-    
 }
+
 .controlprojects{
     width: 100px;
-    height: 100px;
-    right: 0;   
+    height: 100px;  
 }
 
 .cards {
@@ -145,7 +146,8 @@ img {
 .card h2 {
     text-align: center;
     font-size: 2.25rem;
-    color: var(--second-color);
+    color: var(--white-color);
+    margin-bottom: 3rem;
 }
 
 .card img {
@@ -158,7 +160,6 @@ img {
 }
 
 .Botao{
-
     padding: 46px 45px;
     max-width: 100%;
     max-height: 100%;
@@ -189,4 +190,17 @@ img {
     color:  #FFFFFF;
     text-align:center;
     
+}
+
+@media (max-width: 758px) {
+    .about {
+        margin: 3rem 0;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 550px){
+    .projectsContainerTitle {
+        padding-left: 5rem;
+    }
 }
