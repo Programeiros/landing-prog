@@ -2,7 +2,7 @@
 
 
 # Resumo do projeto
-O projeto consistia em criar uma landing page responsiva em equipe, utilizando HTML, CSS.
+O projeto consistia em criar uma landing page responsiva em equipe, utilizando HTML e CSS.
 </br> <h2>Situação do projeto: </h2>Finalizado.
 
 ## ✔️ Técnicas e tecnologias utilizadas
